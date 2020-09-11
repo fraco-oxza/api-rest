@@ -6,6 +6,7 @@ from products import productos
 
 @app.route("/")
 def home():
+    print("alguien entro")
     return "Bienvenido Cara e sapo"
 
 @app.route("/ping")
