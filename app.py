@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 
 app = Flask(__name__)
 
@@ -7,7 +7,7 @@ from products import productos
 @app.route("/")
 def home():
     print("alguien entro")
-    return "Bienvenido Cara e sapo"
+    return render_template("index.html")
 
 @app.route("/ping")
 def ping():
@@ -54,4 +54,4 @@ def deleteProducts(product_name):
     return jsonify({"message": "el producto no se a encontrado"})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=5000)

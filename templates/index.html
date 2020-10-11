@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <title>Inicio de seción</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="css/main.css") }}" type="text/css">
+</head>
+<body>
+    <div class="caja">
+        <div class="header">
+            <p>Banca en Línea</p>
+        </div>
+        <div class="caja_body">
+            <form>
+                <label id="run">RUT Usuario</label>
+                <input type="text"/>
+
+                <br/>
+
+                <label id="key">Clave</label>
+                <input type="password"/>
+                <button class="botoncito">Ingresar</button>
+            </form>
+        </div>
+        <div class="footer">
+            <a href="#">¿Problemas con tu Clave?</a>
+        </div>
+    </div>
+    <div>
+        <form>
+            <button id="botin">Acceso Empresas</button>
+        </form>
+    </div>
+</body>
+</html>

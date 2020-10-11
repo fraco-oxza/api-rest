@@ -1,0 +1,88 @@
+body {
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.caja {
+    display: inline-block;
+    width: 320px;
+    background-color: rgb(214, 214, 214);
+    border: 0px solid #000;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+}
+
+.header{
+    font-size: 1.4em;
+    color: #666666;
+}
+
+.caja_body{
+    padding: 10px 20px;
+    border-top: 2px solid rgba(0, 0, 0, 0.075);
+    margin-top: 1px;
+    color: #666666;
+    font-size: 0.9em;
+    margin:  auto;
+}
+
+.botoncito{
+    margin-top: 20px;
+    border-style: none;
+    display: inline-block;
+    background-color: rgb(218, 142, 3);
+    width: 290px;
+    padding: 12px;
+    color: white;
+    font-size: 1em;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+}
+
+.footer a {
+    color: rgb(180, 118, 2);
+}
+
+#botin{
+    height: 50px;
+    width: 250px;
+    background-color: black;
+    border: 0px none #000;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#run {
+    display: block;
+    text-align: left;
+    margin: 0px;
+}
+
+input {
+    display: block;
+    margin: 0;
+    width: 265px;
+    height: 20px;
+}
+
+#key {
+    display: block;
+    text-align: left;
+    margin: 0px;
+}
+
