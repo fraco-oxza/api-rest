@@ -71,13 +71,16 @@ body {
     display: block;
     text-align: left;
     margin: 0px;
+
 }
 
 input {
     display: block;
     margin: 0;
-    width: 265px;
-    height: 20px;
+    width: 280px;
+    height: 30px;
+    border-radius: 3px;
+    border-style: none;
 }
 
 #key {
