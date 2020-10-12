@@ -7,6 +7,11 @@ body {
     text-align: center;
 }
 
+.warning {
+    background-color: red;
+    color: yellow;
+    text-align: center;
+}
 
 .caja {
     display: inline-block;
