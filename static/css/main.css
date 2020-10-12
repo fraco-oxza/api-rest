@@ -7,11 +7,6 @@ body {
     text-align: center;
 }
 
-.warning {
-    background-color: red;
-    color: yellow;
-    text-align: center;
-}
 
 .caja {
     display: inline-block;
@@ -70,6 +65,15 @@ body {
     color: white;
     font-size: 1.1em;
     cursor: pointer;
+}
+
+#warn {
+    width: 80%;
+    font-size: 2em;
+    display: inline-block;
+    background-color: red;
+    color: yellow;
+    text-align: center;
 }
 
 #run {
