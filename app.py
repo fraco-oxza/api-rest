@@ -1,8 +1,13 @@
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request, render_template, send_from_directory
+import os
 
 app = Flask(__name__)
 
 from products import productos
+
+@app.route("/favicon.ico")
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, "static"), "favicon.ico")
 
 @app.route("/")
 def home():
